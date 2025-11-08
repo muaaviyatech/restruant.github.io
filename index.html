@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirkhot Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Sirkhot Restaurant</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Sirkhot Restaurant</h1>
+            <p>Experience the finest dining with our exquisite cuisine</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Restaurant Interior">
+                </div>
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Welcome to Sirkhot Restaurant, where culinary excellence meets warm hospitality. For over two decades, we've been serving authentic dishes made with the finest ingredients.</p>
+                    <p>Our expert chefs combine traditional recipes with modern techniques to create unforgettable dining experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            
+            <!-- South Indian Menu -->
+            <div class="cuisine-section">
+                <h2 class="cuisine-title">South Indian Delights</h2>
+                <div class="menu-items">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1630383249896-424e482df921" alt="Dosa">
+                        <h3>Dosa Varieties</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Masala Dosa</span>
+                                <span class="price">₹159</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Mysore Masala Dosa</span>
+                                <span class="price">₹179</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Rava Dosa</span>
+                                <span class="price">₹169</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Paper Dosa</span>
+                                <span class="price">₹149</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be" alt="Idli">
+                        <h3>Idli & Vada</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Plain Idli (2 pcs)</span>
+                                <span class="price">₹89</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Sambar Vada</span>
+                                <span class="price">₹99</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Rava Idli</span>
+                                <span class="price">₹109</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Medu Vada</span>
+                                <span class="price">₹99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- North Indian Menu -->
+            <div class="cuisine-section">
+                <h2 class="cuisine-title">North Indian Specialties</h2>
+                <div class="menu-items">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe" alt="Curry">
+                        <h3>Veg Curries</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Paneer Butter Masala</span>
+                                <span class="price">₹299</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Dal Makhani</span>
+                                <span class="price">₹249</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Veg Kolhapuri</span>
+                                <span class="price">₹279</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Malai Kofta</span>
+                                <span class="price">₹289</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" alt="Non-Veg">
+                        <h3>Non-Veg Curries</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Butter Chicken</span>
+                                <span class="price">₹349</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Chicken Tikka Masala</span>
+                                <span class="price">₹369</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Mutton Rogan Josh</span>
+                                <span class="price">₹399</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Fish Curry</span>
+                                <span class="price">₹379</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chinese Menu -->
+            <div class="cuisine-section">
+                <h2 class="cuisine-title">Chinese Corner</h2>
+                <div class="menu-items">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246" alt="Noodles">
+                        <h3>Noodles</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Veg Hakka Noodles</span>
+                                <span class="price">₹199</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Chicken Noodles</span>
+                                <span class="price">₹249</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Schezwan Noodles</span>
+                                <span class="price">₹219</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Pan Fried Noodles</span>
+                                <span class="price">₹239</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Rice">
+                        <h3>Rice & More</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Veg Fried Rice</span>
+                                <span class="price">₹189</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Chicken Fried Rice</span>
+                                <span class="price">₹229</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Manchurian</span>
+                                <span class="price">₹199</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Spring Rolls</span>
+                                <span class="price">₹179</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tandoor Section -->
+            <div class="cuisine-section">
+                <h2 class="cuisine-title">Tandoor Ki Mehak</h2>
+                <div class="menu-items">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0" alt="Tandoor Veg">
+                        <h3>Veg Tandoor</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Paneer Tikka</span>
+                                <span class="price">₹299</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Mushroom Tikka</span>
+                                <span class="price">₹279</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Tandoori Aloo</span>
+                                <span class="price">₹249</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Veg Seekh Kebab</span>
+                                <span class="price">₹269</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Tandoor Non-Veg">
+                        <h3>Non-Veg Tandoor</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">
+                                <span>Chicken Tikka</span>
+                                <span class="price">₹349</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Tandoori Chicken</span>
+                                <span class="price">₹399</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Fish Tikka</span>
+                                <span class="price">₹379</span>
+                            </div>
+                            <div class="menu-item">
+                                <span>Mutton Seekh Kebab</span>
+                                <span class="price">₹399</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2 class="section-title">Our Rooms</h2>
+            <div class="room-items">
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304" alt="Presidential Suite">
+                    <h3>Presidential Suite</h3>
+                    <p>Ultimate luxury with private butler service</p>
+                    <div class="room-details">
+                        <div class="amenities">
+                            <p>✓ 1200 sq ft</p>
+                            <p>✓ Ocean View</p>
+                            <p>✓ Private Balcony</p>
+                            <p>✓ Mini Bar</p>
+                        </div>
+                        <div class="price-tag">₹15,000/night</div>
+                    </div>
+                    <button class="btn book-room-btn" data-room="Presidential Suite" data-price="15000">Book Now</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39" alt="Luxury Suite">
+                    <h3>Luxury Suite</h3>
+                    <p>Spacious comfort with premium amenities</p>
+                    <div class="room-details">
+                        <div class="amenities">
+                            <p>✓ 800 sq ft</p>
+                            <p>✓ City View</p>
+                            <p>✓ Living Room</p>
+                            <p>✓ Mini Bar</p>
+                        </div>
+                        <div class="price-tag">₹10,000/night</div>
+                    </div>
+                    <button class="btn book-room-btn" data-room="Luxury Suite" data-price="10000">Book Now</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427" alt="Deluxe Room">
+                    <h3>Deluxe Room</h3>
+                    <p>Comfortable stay with modern amenities</p>
+                    <div class="room-details">
+                        <div class="amenities">
+                            <p>✓ 500 sq ft</p>
+                            <p>✓ Garden View</p>
+                            <p>✓ King Size Bed</p>
+                            <p>✓ Work Desk</p>
+                        </div>
+                        <div class="price-tag">₹7,500/night</div>
+                    </div>
+                    <button class="btn book-room-btn" data-room="Deluxe Room" data-price="7500">Book Now</button>
+                </div>
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1595576508898-0ad5c879a061" alt="Standard Room">
+                    <h3>Standard Room</h3>
+                    <p>Essential comfort at great value</p>
+                    <div class="room-details">
+                        <div class="amenities">
+                            <p>✓ 350 sq ft</p>
+                            <p>✓ City View</p>
+                            <p>✓ Queen Size Bed</p>
+                            <p>✓ Free WiFi</p>
+                        </div>
+                        <div class="price-tag">₹5,000/night</div>
+                    </div>
+                    <button class="btn book-room-btn" data-room="Standard Room" data-price="5000">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>123 Restaurant Street, City, Country</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+1 234 567 890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@delicious.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sirkhot Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>
